@@ -31,5 +31,7 @@ export declare const MarkdownIt: new (options?: {
   typographer?: boolean;
 }) => MarkdownItInstance;
 
-export declare const katex: unknown;
+export declare const katex: {
+  renderToString(tex: string, options?: unknown): string;
+};
 export declare const texmath: unknown;
