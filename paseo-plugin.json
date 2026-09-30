@@ -1,0 +1,7 @@
+{
+  "id": "paseo-math",
+  "description": "Renders LaTeX math ($…$, $$…$$, \\(…\\), \\[…\\]) in assistant messages with KaTeX on desktop and web",
+  "requirements": {
+    "paseo": ">=0.9.1"
+  }
+}
